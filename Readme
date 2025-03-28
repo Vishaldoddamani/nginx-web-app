@@ -1,0 +1,26 @@
+# Nginx Web App
+
+This is a simple web application served using the Nginx web server. The project includes a Dockerfile to containerize the application.
+
+Deploy a Web App on Nginx Server using AWS App Runner
+
+## Project Structure
+
+Run the Docker container:
+
+Open your browser and navigate to http://localhost:8080 to view the web app.
+
+Files
+dockerfile: Defines the Nginx container and copies the index.html file to the appropriate directory.
+
+index.html: The HTML file displayed by the Nginx server.
+
+nginx-web-app.jpg: A placeholder image included in the project directory.
+
+ What you will accomplish
+In this tutorial, you will:
+
+Create a container image for your web app
+Push the image to Amazon Elastic Container Registry
+Create an AWS App Runner service
+Clean up your resources
